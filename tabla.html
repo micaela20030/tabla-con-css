@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tabla de clacificaciones</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+  <body>
+    <main>
+      <table border="1px">
+        <!-- Titulo de la Tabla -->
+        <caption>
+          Calificaciones de los alumnos
+        </caption>
+
+        <!-- Cabecera o Encabezado de la tabla -->
+        <thead>
+          <tr>
+            <th rowspan="2">Estudiante</th>
+            <th colspan="3">Calificación</th>
+          </tr>
+          <tr>
+            <th>1° Evaluación</th>
+            <th>2° Evaluación</th>
+            <th>Promedio Final</th>
+          </tr>
+        </thead>
+
+        <!-- Cuerpo Principal de la Tabla -->
+        <tbody>
+          <tr>
+            <td>Bernardo</td>
+            <td>15</td>
+            <td>18</td>
+            <td>17</td>
+          </tr>
+          <tr>
+            <td>Remigio</td>
+            <td>14</td>
+            <td>05</td>
+            <td>10</td>
+          </tr>
+        </tbody>
+
+        <!-- Pie de la Tabla -->
+        <tfoot>
+          <tr>
+            <td colspan="3">Números de alumnos Reprobados:</td>
+            <td>1 alumno (50%)</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+body {
+    color: blueviolet;
+    background-color: rgb(115, 255, 145);
+    /* background-color: rgba(166, 166, 224, 0.932); */
+    font-family: 'Courier New', Courier, monospace;
+}
+table {
+    background-color: violet;
+    border-radius: 10px;
+    border:1px solid cadetblue
+}
+
+td {
+    border: 1px solid rgb(36, 22, 241);
+    padding: 8px;
+    text-align: center;
+}
